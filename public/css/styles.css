@@ -10,6 +10,11 @@ body {
     color: #c94d4d;
 }
 
+.ger:hover {
+    color: #8f3838;
+    transition: 0.3s;
+}
+
 * {
     text-decoration: none;
 }
