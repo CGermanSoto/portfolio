@@ -6,6 +6,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.ger{
+    color: #c94d4d;
+}
+
 * {
     text-decoration: none;
 }
@@ -30,7 +34,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     height: 350px;
     width: 350px;
     padding-right: 100px;
@@ -44,8 +47,8 @@ body {
 
 .title-p {
     font-size: 30px;
-    margin: 0%;
 }
+
 
 a {
     color: #f2eeee;
@@ -55,8 +58,23 @@ a {
     display: flex;
 }
 
+.menu-a-item {
+    padding: 5px;
+}
+
+
+
 .menu-item {
-    margin: 10px;
+    background-color: #c94d4d;
+    color: #f2eeee;
+    padding: 2px;
+    border-radius: 4%;
+}
+
+.menu-item:hover {
+    /* font-size: 18px; */
+    background-color: #8f3838;
+    transition: 0.2s;
 }
 
 /* Home */
@@ -80,9 +98,9 @@ a {
 }
 
 .fa:hover {
-    font-size: 45px;
-    margin: 40px;
-    transition: 0.2s;
+    transform: scale(1.5);
+    transition: 0.3s;
+    color: #c94d4d;
 }
 
 .footer {
@@ -96,3 +114,17 @@ a {
     width: 100%;
     /* background-color: tomato; */
 }
+
+/* SOBRE MI */
+
+.title-name-sobremi {
+    font-size: 45px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.menu-sobremi {
+    display: flex;
+}
+
+/* MI EXPERIENCIA */
