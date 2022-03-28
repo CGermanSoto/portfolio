@@ -12,8 +12,8 @@ body {
 
 .ger:hover {
     color: #8f3838;
-    transition: 0.3s;
 }
+
 
 * {
     text-decoration: none;
@@ -103,7 +103,7 @@ a {
 }
 
 .fa:hover {
-    transform: scale(1.5);
+    transform: scale(1.9);
     transition: 0.3s;
     color: #c94d4d;
 }
@@ -120,16 +120,139 @@ a {
     /* background-color: tomato; */
 }
 
+
+
 /* SOBRE MI */
 
-.title-name-sobremi {
-    font-size: 45px;
-    margin: 0;
-    margin-top: 100px;
+.container-sobremi {
+    overflow: auto;
+    width: 500px;
 }
 
-.menu-sobremi {
-    display: flex;
+.container-sobremi::-webkit-scrollbar {
+    width: 4px;
+}
+
+.container-sobremi::-webkit-scrollbar-thumb {
+    background-color: #c94d4d;
+    border-radius: 5px;
 }
 
 /* MI EXPERIENCIA */
+
+.exp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    width: 350px;
+    padding-right: 100px;
+}
+
+.container-experiencia {
+    height: 700px;
+    width: 500px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow: auto;
+}
+
+.cards-title {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.card {
+    padding: 0;
+    margin: 15px;
+    width: 200px;
+    height: 150px;
+}
+
+.img-card {
+    width: 200px;
+    height: 100px;
+}
+
+.container-experiencia::-webkit-scrollbar {
+    width: 4px;
+}
+
+.container-experiencia::-webkit-scrollbar-thumb {
+    background-color: #c94d4d;
+    border-radius: 5px;
+}
+
+
+/* MI EXPERIENCIA */
+
+.container-skills {
+    height: 700px;
+    width: 500px;
+    margin-bottom: 10px;
+    overflow: auto;
+    /* background-color: #8f3838; */
+}
+
+.container-node-ex {
+    display: flex;
+}
+
+.node-ex, .html, .css, .js {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.node {
+    width: 170px;
+    height: 85px;
+}
+
+.ex {
+    width: 50px;
+    height: 50;
+}
+
+.cont-ex {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.mongoDB {
+    height: 60px;
+    width: 60px;
+}
+
+
+.img-normal {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.container-html {
+    display: flex;
+}
+
+.html, .css, .js {
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+
+.container-skills::-webkit-scrollbar {
+    width: 4px;
+}
+
+.container-skills::-webkit-scrollbar-thumb {
+    background-color: #c94d4d;
+    border-radius: 5px;
+}
+
+
+
+
+
