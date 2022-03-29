@@ -384,12 +384,12 @@ a {
 
 
 
-@media screen and (min-width: 420px)  and (max-width:540px) {  
+@media screen and (min-width: 320px)  and (max-width:540px) {  
     .menu-responsive {
         font-size: 40px;
         display:block;
-        position: absolute;
-        margin-bottom: 950px;
-        margin-left: 390px;
+        position: fixed;
+        margin-bottom: 870px;
+        margin-left: 350px;
     }
 }
