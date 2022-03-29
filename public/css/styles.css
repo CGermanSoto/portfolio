@@ -6,6 +6,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container-home {
+    height: 700px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.menu-home {
+    margin-top: 180px;
+}
+
 .ger{
     color: #c94d4d;
 }
@@ -44,9 +54,14 @@ body {
     padding-right: 100px;
 }
 
-.title-name {
+.title-name-home {
     font-size: 50px;
-    margin: 0;
+    margin-top: 50px;
+}
+
+.title-name {
+    margin-top: 0px;
+    font-size: 50px;
     padding-right: 10%;
 }
 
@@ -61,6 +76,7 @@ a {
 
 .menu {
     display: flex;
+    width: 500px;
 }
 
 .menu-a-item {
@@ -125,8 +141,8 @@ a {
 /* SOBRE MI */
 
 .container-sobremi {
-    overflow: auto;
     width: 500px;
+    overflow: auto;
 }
 
 .container-sobremi::-webkit-scrollbar {
@@ -222,14 +238,20 @@ a {
 }
 
 .mongoDB {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 
+.js-img {
+    margin-top: 15px;
+    height: 55px;
+    width: 55px;
+}
 
 .img-normal {
-    height: 40px;
-    width: 40px;
+    margin-top: 15px;
+    height: 45px;
+    width: 45px;
     margin-bottom: 10px;
 }
 
@@ -252,7 +274,16 @@ a {
     border-radius: 5px;
 }
 
+.red {
+    color: #c94d4d;
+}
 
+.red:hover {
+    color:#8f3838
+}
 
+.div-red {
+    display: flex;
+}
 
 
