@@ -6,6 +6,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.menu-responsive {
+    display: none;
+}
+
 .container-home {
     height: 700px;
     width: 500px;
@@ -113,16 +117,6 @@ a {
 
 
 /*  FOOTER */
-.fa {
-    font-size: 30px;
-    margin: 40px;
-}
-
-.fa:hover {
-    transform: scale(1.9);
-    transition: 0.3s;
-    color: #c94d4d;
-}
 
 .footer {
     display: flex;
@@ -286,4 +280,116 @@ a {
     display: flex;
 }
 
+/* CONTACT */
 
+.div-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+}
+
+.form-control {
+    margin-bottom: 12px;
+    width: 300px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding-right: 100px;
+}
+
+.title-name-form {
+    font-size: 50px;
+    margin-top: 20px;
+    width: 450px;
+}
+
+.textarea {
+    height: 83px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* RESPONSUVE */
+
+@media screen and (min-width: 541px) {
+    .fa {
+        font-size: 30px;
+        margin: 40px;
+    }
+    
+    .fa:hover {
+        transform: scale(1.9);
+        transition: 0.3s;
+        color: #c94d4d;
+    }
+}
+
+@media screen and (min-width: 300px)  and (max-width:540px) {
+    /* HOME */
+
+    .container {
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-perfil {
+        width: 250px;
+        height: 250px;
+    }
+
+    .container, .title-name-home, .container-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .container-home {
+        width: 300px;
+        height: 70px;
+        margin-left: 80px;
+    }
+
+    .title-name-home{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .div-title-home {
+        width: 300px;
+        margin-left: 80px;
+    }
+
+    .div-title-home, .title-name-home {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu, .footer {
+        display: none !important;
+    }
+}
+
+
+
+@media screen and (min-width: 420px)  and (max-width:540px) {  
+    .menu-responsive {
+        font-size: 40px;
+        display:block;
+        position: absolute;
+        margin-bottom: 950px;
+        margin-left: 390px;
+    }
+}
